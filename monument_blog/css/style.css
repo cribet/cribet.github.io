@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-size: 15px;
+	color: grey;
+	font-family: "Raleway", sans-serif;
+		text-transform: uppercase;
+		text-decoration: none;
+
+}
+
+nav a{
+		font-size: 16px;
+	color:#7B98AA;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 20px;
+	}
+
+	nav, header{
+		text-align: center;
+		margin-top: 30px;
+
+	}
+
+
+h1 a{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	color: #44545E;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 37px;
+
+	}
+
+	header {
+		background-image: url("../images/blog_header_bg.jpg");
+		min-height: 175px;
+		padding: 150px;
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+h2{
+	font-size: 23px;
+}
+	h3{
+		font-size: 18px;
+	}
+
+h2, h3{
+	margin-left: 10px;
+	color: #44545E;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+}
+article{
+	padding-left: 100px;
+	font-family: "Lato", sans-serif;
+	text-transform: none;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+aside{
+	padding-left: 100px;
+	padding-right: 100px;
+	border: 5px solid white;
+	font-family: "Lato", sans-serif;
+	text-transform: none;
+		font-weight: 400;
+		font-size: 15px;
+}
+
+aside a,
+aside ul {
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #7b98aa;
+}
+
+footer{
+	background-color: #cdf3f6;
+	padding: 20px;
+	text-align: center;
+	text-transform: none;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	color: #44545e;
+}
+
+footer a{
+	text-decoration: none;
+	color: #44545E;
+}
+
+footer i{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+hr {
+	width:100%;
+	height:1px;
+	background: #fff
+}
+
+a:hover{
+	background-color: grey;
+}
+
+#col{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-column-gap: 1px;
+}
+
+.container{
+display: grid;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
