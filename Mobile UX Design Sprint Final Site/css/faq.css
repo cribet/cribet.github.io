@@ -1,0 +1,11 @@
+header {
+  background-image: url('../images/lightbulb.jpg');
+}
+
+h1 a {
+  color: white;
+}
+
+section {
+  text-align: left;
+}
