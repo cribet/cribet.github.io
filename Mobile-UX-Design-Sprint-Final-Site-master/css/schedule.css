@@ -1,0 +1,26 @@
+header {
+  background-image: url('../images/Clock.jpg');
+
+}
+
+h1 a {
+  color: #ffffff;
+}
+
+header h2 {
+  color: #ffffff;
+}
+
+.schedule h2{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.schedule li {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+  color: #7B98AA;
+}
